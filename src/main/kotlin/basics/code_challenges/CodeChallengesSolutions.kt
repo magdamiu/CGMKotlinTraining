@@ -1,4 +1,5 @@
 package basics.code_challenges
 
-class CodeChallengesSolutions {
-}
+class CodeChallengesSolutions
+
+
