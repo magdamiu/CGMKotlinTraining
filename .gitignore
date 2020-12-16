@@ -25,3 +25,5 @@ hs_err_pid*
 
 #ignore the folder called build anywhere, but not files called build
 build/
+.idea
+.gradle
