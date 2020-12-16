@@ -1,4 +1,6 @@
 package basics.samples
 
-class Main {
+fun main() {
+    println("Hello Kotlin")
+    println("Magda Miu")
 }
