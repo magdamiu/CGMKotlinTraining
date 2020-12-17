@@ -30,6 +30,10 @@ fun main() {
     transformFunctions(languagesList)
 }
 
+fun findStrings(objs: List<Any>) =
+    objs.filterIsInstance<String>()
+
+
 fun aggregateFunctions(languagesList: List<Language>) {
     // count
     println(languagesList.count())
