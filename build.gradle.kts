@@ -14,9 +14,16 @@ repositories {
 dependencies {
     testImplementation(kotlin("test-junit"))
 
+    // Gson
+    implementation("com.google.code.gson:gson:2.8.4")
+
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
+
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.4.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.4.0")
+    implementation("com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2")
 }
 
 tasks.test {
